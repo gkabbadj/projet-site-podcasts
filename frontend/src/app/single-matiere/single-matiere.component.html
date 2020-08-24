@@ -1,0 +1,15 @@
+<a routerLink="/matieres/student">Retour à la liste des matières</a>
+
+<p class="text-center" *ngIf="this.matiere.podcasts.length <= 0 && !loading">Pas de podcasts pour cette matière !</p>
+<div class="podcasts-grid" *ngIf="this.matiere.podcasts.length >= 0">
+  <div class="podcast-pane"
+       *ngFor="let podcast of this.matiere.podcasts">
+    <div class="podcast-info">
+      <h3>
+        {{ podcast.nom }}
+      </h3>
+      <h5>{{ podcast.description }}</h5>
+      <audio controls src="podcast.path"></audio>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<p class="text-center" *ngIf="matieres.length <= 0 && !loading">Pas de matières disponibles pour ce niveau</p>
+<div class="matieres-grid" *ngIf="matieres.length >= 0">
+  <div class="matiere-pane"
+       *ngFor="let matiere of matieres"
+       (click)="onMatiereClicked(matiere.code)">
+    <div class="matiere-info">
+      <h3>
+        {{ matiere.title }}
+      </h3>
+    </div>
+  </div>
+</div>

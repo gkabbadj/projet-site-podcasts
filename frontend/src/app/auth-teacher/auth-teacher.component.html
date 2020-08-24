@@ -1,0 +1,5 @@
+<h2>Authentification Professeur</h2>
+<button class="btn btn-success" *ngIf="!authTeacherStatus"
+        (click)="onSignInTeacher()"> Se connecter </button>
+<button class="btn btn-danger" *ngIf="authTeacherStatus"
+        (click)="onSignOutTeacher()"> Se déconnecter </button>

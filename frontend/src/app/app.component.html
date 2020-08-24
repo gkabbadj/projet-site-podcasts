@@ -1,0 +1,14 @@
+<nav class ="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active"><a routerLink="auth/student">Authenfication Etudiant</a></li>
+      <li routerLinkActive="active"><a routerLink="niveaux/student">Matières par année</a></li>
+      <li routerLinkActive="active"><a routerLink="auth/teacher">Authenfication Professeur</a></li>
+    </ul>
+  </div>
+</nav>
+<div class ="container">
+  <div class ="row">
+    <router-outlet></router-outlet>
+  </div>
+</div>
