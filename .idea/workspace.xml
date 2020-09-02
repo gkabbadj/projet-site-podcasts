@@ -2,35 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb92e05a-2cac-47b0-a826-9ba7a7ca8dee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projet-site-podcasts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/la-chevauchee-des-walkyries.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/matierePodcast.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/all-matieres-prof/all-matieres-prof.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/all-matieres-prof/all-matieres-prof.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/all-matieres-prof/all-matieres-prof.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/all-matieres-prof/all-matieres-prof.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/all-matieres/all-matieres.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/all-matieres/all-matieres.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/models/Podcast.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/models/Podcast.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/single-matiere-prof/single-matiere-prof.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/single-matiere-prof/single-matiere-prof.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/single-matiere-prof/single-matiere-prof.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/single-matiere-prof/single-matiere-prof.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/single-matiere/single-matiere.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/single-matiere/single-matiere.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/single-matiere/single-matiere.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/single-matiere/single-matiere.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/THIRD-PARTY-NOTICES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/bsondump.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/mongodump.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/mongoexport.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/mongofiles.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/mongoimport.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/mongorestore.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/mongostat.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb-database-tools-windows-x86_64-100.1.1/bin/mongotop.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/server.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +59,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="306">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -208,26 +210,6 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="projet-site-podcasts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-site-podcasts" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet-site-podcasts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-site-podcasts" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ajout-podcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet-site-podcasts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-site-podcasts" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -287,12 +269,12 @@
       <workItem from="1598284851349" duration="15669000" />
       <workItem from="1598429739877" duration="11199000" />
       <workItem from="1598603084745" duration="693000" />
-      <workItem from="1598862254276" duration="21790000" />
+      <workItem from="1598862254276" duration="24320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100432000" />
+    <option name="totallyTimeSpent" value="102962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="781" height="830" extended-state="0" />
@@ -479,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/single-matiere-prof/single-matiere-prof.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -647,10 +622,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
