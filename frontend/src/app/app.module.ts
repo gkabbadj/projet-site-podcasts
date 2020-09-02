@@ -21,14 +21,14 @@ import { AjoutPodcastComponent } from './ajout-podcast/ajout-podcast.component';
 
 
 const appRoutes: Routes = [
-  { path: 'matieres/student', canActivate: [AuthStudentGuard], component: AllMatieresComponent},
-  { path: 'matieres/teacher', canActivate: [AuthTeacherGuard], component: AllMatieresProfComponent},
-  { path: 'matieres/teacher/:id', canActivate: [AuthTeacherGuard], component: SingleMatiereProfComponent},
-  { path: 'matieres/student/:id', canActivate: [AuthStudentGuard], component: SingleMatiereComponent},
-  { path: 'ajoutPodcast/:id', canActivate: [AuthTeacherGuard], component: AjoutPodcastComponent},
+  { path: 'matieres/student', component: AllMatieresComponent},
+  { path: 'matieres/teacher', component: AllMatieresProfComponent},
+  { path: 'matieres/teacher/:id', component: SingleMatiereProfComponent},
+  { path: 'matieres/student/:id', component: SingleMatiereComponent},
+  { path: 'ajoutPodcast/:id', component: AjoutPodcastComponent},
   { path: 'auth/student', component: AuthStudentComponent},
   { path: 'auth/teacher', component: AuthTeacherComponent},
-  { path: '', canActivate: [AuthStudentGuard], component: AllMatieresComponent},
+  { path: '', component: AllMatieresComponent},
   { path: 'not-found', component: FourOhFourComponent},
   { path: '**', redirectTo: '/not-found'}
 ];

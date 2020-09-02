@@ -1,16 +1,20 @@
 <a routerLink="/matieres/teacher">Retour à la liste des matières</a>
 
-<p class="text-center" *ngIf="this.matiere.podcasts.length <= 0 && !loading">Pas de podcasts pour cette matière !</p>
+<h2 *ngIf="(matiere)">{{matiere.nom}}</h2>
+
+<p class="text-center" *ngIf=" (podcasts) && podcasts.length <= 0 && !loading">Pas de podcasts pour cette matière !</p>
 <button class="btn btn-success" (click)="onAddPodcast()">Ajouter un podcast</button>
-<div class="podcasts-grid" *ngIf="this.matiere.podcasts.length >= 0">
+<div class="podcasts-grid" *ngIf=" (podcasts) && podcasts.length >= 0">
   <div class="podcast-pane"
-       *ngFor="let podcast of this.matiere.podcasts">
+       *ngFor="let podcast of podcasts">
     <div class="podcast-info">
       <h3>
         {{ podcast.nom }}
       </h3>
       <h5>{{ podcast.description }}</h5>
-      <audio controls src="podcast.path"></audio>
+      <audio controls src={{podcast.path}}></audio>
     </div>
   </div>
 </div>
+
+

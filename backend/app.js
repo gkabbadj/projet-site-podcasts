@@ -1,7 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const dataRoutes = require('./routes/data')
+const dataRoutes = require('./routes/data');
+const session = require('express-session');
+const CASAuthentication = require('cas-authentication');
 
 const app = express();
 
@@ -20,9 +22,18 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 
-app.use('/api/data', dataRoutes);
+app.use(session({
+  secret: '12087371912',
+  resave: false,
+  saveUninitialized : true}
+));
 
-app.use(function(req, res){
-       res.send('message');
-   });
+cas = new CASAuthentication({
+  cas_url: 'https://login.insa-lyon.fr/cas',
+  service_url: 'http://toto.insa-lyon.fr:3000'});
+
+app.use('/', cas.bounce, (express.static('public')));
+
+app.use('/api/data', cas.bounce, dataRoutes);
+
 module.exports = app;

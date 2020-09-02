@@ -1,6 +1,5 @@
 import {Component, OnInit, OnDestroy} from '@angular/core';
 import {Subscription} from 'rxjs';
-import { StateService} from '../services/state.service';
 import { AjoutService} from '../services/ajout.service';
 import {Router} from '@angular/router';
 import {Matiere} from '../models/Matiere.model';
@@ -17,8 +16,7 @@ export class AllMatieresProfComponent implements OnInit, OnDestroy {
   public id: string;
   public matieresSub: Subscription;
 
-  constructor(private state: StateService,
-              private ajoutService: AjoutService,
+  constructor(private ajoutService: AjoutService,
               private router: Router) { }
 
   ngOnInit(): void {

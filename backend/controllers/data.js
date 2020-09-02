@@ -1,11 +1,7 @@
 const Matiere = require('../models/Matiere');
 
-exports.defaultRequest = (req, res) => {
-  res.send('ok');
-};
-
 exports.getSingleMatiere = (req, res, next) => {
-  Matiere.findById(req.params.id)
+  Matiere.findOne({code: req.params.id})
     .then(things => res.status(200).json(things))
     .catch(error => res.status(400).json({ error }));
 };
@@ -17,7 +13,9 @@ exports.getAllMatieres = (req, res, next) => {
 };
 
 exports.updateMatiere = (req, res, next) => {
-  Matiere.updateOne({ _id: req.params.id }, { ...req.body, _id: req.params.id })
+  console.log(req.params);
+  console.log(req.body);
+  Matiere.updateOne({ code : req.params.code}, { ...req.body, code: req.params.code})
     .then(() => res.status(200).json({ message: 'Objet modifié !'}))
     .catch(error => res.status(400).json({ error }));
 };

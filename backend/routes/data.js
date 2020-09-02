@@ -6,10 +6,9 @@ const router = express.Router();
 
 router.get('/matieres', dataCtrl.getAllMatieres);
 
-router.get('/matieres/teacher/:id', dataCtrl.getSingleMatiere);
-router.get('/matieres/student/:id', dataCtrl.getSingleMatiere);
+router.get('/matieres/:id', dataCtrl.getSingleMatiere);
 
-router.put('/ajout/:id', dataCtrl.updateMatiere);
+router.put('/ajout/:code', dataCtrl.updateMatiere);
 
 
 module.exports = router;

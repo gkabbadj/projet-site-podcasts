@@ -20,6 +20,9 @@
     "@angular/platform-browser-dynamic": "~10.0.6",
     "@angular/router": "~10.0.6",
     "bootstrap": "^4.5.2",
+    "cas-authentication": "0.0.8",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

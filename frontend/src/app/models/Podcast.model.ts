@@ -1,5 +1,5 @@
 export class Podcast {
-  constructor(public nom: string,
-              public description: string,
-              public path: string){}
+  nom: string;
+  description: string;
+  path: string;
 }

@@ -2,7 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Matiere} from '../models/Matiere.model';
 import {Subscription} from 'rxjs';
 import {AjoutService} from '../services/ajout.service';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import {Podcast} from '../models/Podcast.model';
 
 @Component({
@@ -13,22 +13,28 @@ import {Podcast} from '../models/Podcast.model';
 export class SingleMatiereProfComponent implements OnInit, OnDestroy {
 
   public matiere: Matiere;
+  public podcasts: Podcast[];
   public loading: boolean;
   public matiereSub: Subscription;
 
   constructor(private ajoutService: AjoutService,
-              private router: Router) {
+              private router: Router,
+              private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
+    console.log('toto');
     this.loading = true;
+    const id = this.route.snapshot.params["id"];
     this.matiereSub = this.ajoutService.matiere$.subscribe(
       (matiere) => {
+        console.log('test', matiere);
         this.matiere = matiere;
-        this.loading = false;
+        this.podcasts = matiere['podcasts'];
       }
     );
-    this.ajoutService.getMatiereByIdMatiere(this.matiere.code);
+    this.ajoutService.getMatiereByIdMatiere(id);
+    this.loading = false;
   }
   onAddPodcast(): void {
     this.router.navigate(['/ajoutPodcast/' + this.matiere.code]);
