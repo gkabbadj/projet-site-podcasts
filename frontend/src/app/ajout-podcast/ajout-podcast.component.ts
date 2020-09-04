@@ -18,7 +18,7 @@ export class AjoutPodcastComponent implements OnInit, OnDestroy {
   public newpodcast: Podcast;
   public loading: boolean;
   public matiereSub: Subscription;
-  public pathPodcasts = 'http://toto.insa-lyon.fr:3000/';
+  public pathPodcasts = 'http://tc405-112-10.insa-lyon.fr:3000/';
   podcastForm: FormGroup;
 
   constructor(private ajoutService: AjoutService,

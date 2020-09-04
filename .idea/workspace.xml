@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb92e05a-2cac-47b0-a826-9ba7a7ca8dee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/Sinister-Shadows.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/la-chevauchee-des-walkyries.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/matierePodcast.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/services/ajout.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/ajout.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/server3.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/server3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
@@ -42,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -111,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/services/ajout.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="-56">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -217,9 +211,9 @@
         <option value="$PROJECT_DIR$/backend/app.js" />
         <option value="$PROJECT_DIR$/backend/public/matierePodcast.json" />
         <option value="$PROJECT_DIR$/frontend/angular.json" />
-        <option value="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts" />
         <option value="$PROJECT_DIR$/test/server3.js" />
         <option value="$PROJECT_DIR$/frontend/src/app/services/ajout.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts" />
       </list>
     </option>
   </component>
@@ -249,6 +243,12 @@
             <path>
               <item name="projet-site-podcasts" type="b2602c69:ProjectViewProjectNode" />
               <item name="projet-site-podcasts" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet-site-podcasts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet-site-podcasts" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,6 +263,14 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet-site-podcasts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet-site-podcasts" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ajout-podcast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projet-site-podcasts" type="b2602c69:ProjectViewProjectNode" />
@@ -337,17 +345,18 @@
       <workItem from="1598429739877" duration="11199000" />
       <workItem from="1598603084745" duration="693000" />
       <workItem from="1598862254276" duration="26466000" />
-      <workItem from="1599120760798" duration="2463000" />
+      <workItem from="1599120760798" duration="3385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107571000" />
+    <option name="totallyTimeSpent" value="108493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="782" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26519337" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26519337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,7 +371,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32904148" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.30615166" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.30615166" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,16 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -659,6 +658,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/server2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -668,18 +674,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/services/ajout.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        <state relative-caret-position="-56">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/ajout-podcast/ajout-podcast.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="340">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

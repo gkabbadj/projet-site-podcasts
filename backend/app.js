@@ -30,7 +30,7 @@ app.use(session({
 
 cas = new CASAuthentication({
   cas_url: 'https://login.insa-lyon.fr/cas',
-  service_url: 'http://toto.insa-lyon.fr:3000'});
+  service_url: 'http://tc405-112-10.insa-lyon.fr:3000'});
 
 app.use('/', cas.bounce, (express.static('public')));
 

@@ -62,7 +62,7 @@ class AjoutPodcastComponent {
         this.router = router;
         this.formBuilder = formBuilder;
         this.route = route;
-        this.pathPodcasts = 'http://toto.insa-lyon.fr:3000/';
+        this.pathPodcasts = 'http://tc405-112-10.insa-lyon.fr:3000/';
     }
     ngOnInit() {
         const id = this.route.snapshot.params["id"];
