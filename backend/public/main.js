@@ -812,7 +812,7 @@ class AjoutService {
         this.matieres$.next(this.matieres);
     }
     getMatieres() {
-        this.http.get('http://toto.insa-lyon.fr:3000/api/data/matieres').subscribe((matieres) => {
+        this.http.get('http://tc405-112-10.insa-lyon.fr:3000/api/data/matieres').subscribe((matieres) => {
             if (matieres) {
                 this.matieres = matieres;
                 this.emitMatieres();
@@ -823,7 +823,7 @@ class AjoutService {
     }
     getMatiereByIdMatiere(id) {
         return new Promise((resolve, reject) => {
-            this.http.get('http://toto.insa-lyon.fr:3000/api/data/matieres/' + id).subscribe((matiere) => {
+            this.http.get('http://tc405-112-10.insa-lyon.fr:3000/api/data/matieres/' + id).subscribe((matiere) => {
                 if (matiere) {
                     this.matiere = matiere;
                     this.emitMatiere();
@@ -836,7 +836,7 @@ class AjoutService {
     modifyMatiere(matiere) {
         return new Promise((resolve, reject) => {
             console.log(matiere);
-            this.http.put('http://toto.insa-lyon.fr:3000/api/data/ajout/' + matiere.code, matiere).subscribe((response) => {
+            this.http.put('http://tc405-112-10.insa-lyon.fr:3000/api/data/ajout/' + matiere.code, matiere).subscribe((response) => {
                 resolve(response);
             }, (error) => {
                 reject(error);

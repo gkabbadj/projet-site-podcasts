@@ -28,7 +28,7 @@ export class AjoutService {
 
 
   getMatieres(): void {
-    this.http.get('http://toto.insa-lyon.fr:3000/api/data/matieres').subscribe(
+    this.http.get('http://tc405-112-10.insa-lyon.fr:3000/api/data/matieres').subscribe(
       (matieres: Matiere[]) => {
         if (matieres) {
           this.matieres = matieres;
@@ -43,7 +43,7 @@ export class AjoutService {
 
   getMatiereByIdMatiere(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.get('http://toto.insa-lyon.fr:3000/api/data/matieres/' + id).subscribe(
+      this.http.get('http://tc405-112-10.insa-lyon.fr:3000/api/data/matieres/' + id).subscribe(
         (matiere: Matiere) => {
           if (matiere) {
             this.matiere = matiere;
@@ -59,7 +59,7 @@ export class AjoutService {
   modifyMatiere(matiere: Matiere) {
     return new Promise((resolve, reject) => {
       console.log(matiere);
-      this.http.put('http://toto.insa-lyon.fr:3000/api/data/ajout/' + matiere.code, matiere).subscribe(
+      this.http.put('http://tc405-112-10.insa-lyon.fr:3000/api/data/ajout/' + matiere.code, matiere).subscribe(
         (response) => {
           resolve(response);
         },
