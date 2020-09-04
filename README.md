@@ -67,5 +67,16 @@ Notez bien qu'ici j'ai mis mon lien de base de données
 (avec un autre nom d'utilisateur et mot de passe évidemment !),
 il vous faudra donc mettre votre propre lien 
 de base données ainsi que votre nom d'utilisateur et 
-mot de passe pour accéder à la collection
-dans la 
+mot de passe pour accéder à la collection.
+
+Si vous avez effectué des changements dans le code : 
+- Coté frontend, soit vous êtes en mode développement
+'> ng serve' et là vous n'avez rien à faire, soit vous 
+êtes en mode production, et là à chaque changement vous devez
+sauvegarder vos changements et lancer '> ng build'
+- Côté backend, c'est beaucoup plus simple, à chaque changement dans 
+un fichier x.js il vous suffira de sauvegarder puis relancer '> node x'
+
+Enfin, pour lancer l'application, ouvrez 2 terminaux dans le dossier backend : 
+- Dans le premier, lancez '> node server'
+- Dans le second, lancez '> node server2'
