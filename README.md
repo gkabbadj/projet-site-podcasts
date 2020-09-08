@@ -21,7 +21,7 @@ et mongoimport seront donc nécessaires.
 Pour installer ce projet, entrez la
 ligne de commande suivante : 
 
-> git clone https://github.com/gkabbadj/projet-site-podcasts.git
+`git clone https://github.com/gkabbadj/projet-site-podcasts.git` 
 
 Cela va mettre tous les fichiers dans
 un répertoire nommé 'projet-site-podcasts'. Il 
@@ -31,16 +31,16 @@ rien de plus simple.
 Dans un premier temps, en 
 partant de 'projet-site-podcasts' : 
 
-> cd backend
+`cd backend`
 
-> npm install
+`npm install` 
 
 Dans un second temps, toujours en
 partant de 'projet-site-podcasts' : 
 
-> cd frontend
+`cd frontend` 
 
-> npm install
+`npm install`
 
 Ensuite, pour que le code fonctionne, 
 il faudra modifier les instances de 
@@ -51,17 +51,26 @@ trouvent dans les fichiers suivants :
 - frontend/src/app/ajout-podcast/ajout-podcast.component.ts
 - backend/app.js
 
-Egalement, pour modifier en profondeur votre
-base de données (ajouter/supprimer des niveaux/matières par exemple),
+Pour que ces changements puissent être pris en compte, il faudra compiler. 
+Ainsi, dépendamment du côté où l'on compile, la façon diffère : 
+- Coté frontend, lancez `ng build`
+- Côté backend, à chaque changement dans un fichier x.js il vous 
+suffira de sauvegarder puis relancer `node x`
+
+Enfin, pour lancer l'application, lancez `node server`
+
+
+Une dernière remarque supplémentaires pour vous aider à modifier en profondeur votre
+base de données (ajouter/supprimer des niveaux/matières par exemple). Pour ce faire,
 il vous faudra exécuter la commande suivante,
 sachant que votre fichier se nomme x.json
 et se trouve dans le fichier de chemin
 d'accès YOURPATH :
 
-> mongoimport --username user --password 
+`mongoimport --username user --password 
 user --uri 'mongodb://cluster0.q4qa7.mongodb.net' 
 --collection matieres --file 
-'C:/matierePodcast.json' --jsonArray
+'C:/matierePodcast.json' --jsonArray`
 
 Notez bien qu'ici j'ai mis mon lien de base de données 
 (avec un autre nom d'utilisateur et mot de passe évidemment !),
@@ -69,14 +78,4 @@ il vous faudra donc mettre votre propre lien
 de base données ainsi que votre nom d'utilisateur et 
 mot de passe pour accéder à la collection.
 
-Si vous avez effectué des changements dans le code : 
-- Coté frontend, soit vous êtes en mode développement
-'> ng serve' et là vous n'avez rien à faire, soit vous 
-êtes en mode production, et là à chaque changement vous devez
-sauvegarder vos changements et lancer '> ng build'
-- Côté backend, c'est beaucoup plus simple, à chaque changement dans 
-un fichier x.js il vous suffira de sauvegarder puis relancer '> node x'
 
-Enfin, pour lancer l'application, ouvrez 2 terminaux dans le dossier backend : 
-- Dans le premier, lancez '> node server'
-- Dans le second, lancez '> node server2'
